@@ -1,11 +1,16 @@
+
+@charset "UTF-8";
+
+
+
 @font-face {
     font-family: 'whitney';
-    src: url(font/whitneybook.otf) format('opentype');
+    src: url(../font/whitneybook.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'whitneybold';
-    src: url(font/whitneybold.otf) format('opentype');
+    src: url(../font/whitneybold.otf) format('opentype');
 }
  
 
@@ -22,7 +27,7 @@ main{
 }
 
 header{
-    background-image: url(img-header/c.svg);
+    background-image: url(../img-header/c.svg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -56,7 +61,8 @@ nav{
 
 
 
-header a {    
+header a {
+    font-family: 'whitney';  
     font-weight: bold;
     background-attachment: fixed;
     color: white;
