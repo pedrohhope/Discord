@@ -3,7 +3,7 @@ Link do Site de exemplo : https://heloir.github.io/Discord/
 
 *ERROS DETECTADOS :
 * - Imagem de fundo não está funcionando no GITHUB
-* - Fonts não estão funcionando
+* - Fonts não estão funcionando no GITHUB
 
 
 
