@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'whitney';
+    src: url(/font/whitneybook.otf);
+}
+
+@font-face {
+    font-family: 'whitneybold';
+    src: url(/font/whitneybold.otf);
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    overflow: hidden;
+}
+
+header{
+    background-image: url(/img-header/bg.svg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #404EED;
+    height: 700px;
+    overflow: hidden;
+    
+    
+}
+
+nav{
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    top: 40px;    
+}
+
+
+#logo a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+#baixar a {
+    height: 100px;
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+
+
+
+header a {    
+    font-weight: bold;
+    background-attachment: fixed;
+    color: white;
+    text-decoration: none;
+    
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+#entrar{
+     position: relative;
+     bottom: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border: none;
+     border-radius: 20px;
+}
+
+header h1{
+    
+    font-family: 'whitneybold';
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15vh;
+    font-size: 70px;
+}
+
+header p{
+   
+    font-family: 'whitney';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  
+    
+}
+
+.container button{
+   margin-left: 30px;
+   margin-top: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size: 20px;
+   cursor: pointer;
+   background-color: white;
+   border: none;
+   border-radius: 100px;
+}
+
+#botaoa{
+    color: white;
+    background-color: #26282c;
+}
+
+
+.container button{
+    position: relative;
+    left: 300px;
+}
+
+#imagem1{
+    position: relative;
+    bottom: 264px;
+    right: 350px;
+   
+}
+
+
+#imagem2{
+    bottom: 260px;
+    right: -310px;
+    position: relative;
+
+}
+
+
+/*Animação das sections*/
+
+[data-anime]{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+/*Section1*/
+
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 800px;
+    
+}
+
+.section1 h1{
+    font-family: 'whitneybold';
+    color: rgb(46, 46, 46);
+    font-size: 48px;
+    
+   
+}
+
+.section1 p{
+    margin-top: 20px;
+    font-family: 'whitney';
+    font-size: 20px;
+    line-height: 32.5px;
+}
+
+.section1 img{
+    height: 450px;
+    margin-right: 100px;
+    margin-left: 70px;
+}
+
+
+/*End*/
+
+
+
+
+
+
+
+/*Section2*/
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 70vh;
+    background-color: #f6f6f6;
+    
+}
+
+.section2 h1{
+    margin-left: 100px;
+    font-family: 'whitneybold';
+    color: rgb(46, 46, 46);
+    font-size: 48px;
+}
+
+.section2 p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'whitney';
+    font-size: 20px;
+    line-height: 32.5px;
+}
+
+.section2 img{
+    
+    height: 450px;
+    margin-right: 100px;
+    margin-left: 70px;
+}
+
+
+
+/*End*/
+
+
+
+
+/*Section3*/
+
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 70vh;
+    
+}
+
+.section3 h1{
+    font-family: 'whitneybold';
+    color: rgb(46, 46, 46);
+    font-size: 48px;
+    
+   
+}
+
+.section3 p{
+    margin-top: 20px;
+    font-family: 'whitney';
+    font-size: 20px;
+    line-height: 32.5px;
+}
+
+.section3 img{
+    height: 450px;
+    margin-right: 100px;
+    margin-left: 70px;
+}
+
+
+/*End*/
+
+
+
+/*Section4*/
+
+
+.section4{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    height: 100vh;
+}
+
+.section4 h1{
+    font-family: 'whitneybold';
+    color: rgb(46, 46, 46);
+    font-size: 48px;
+}
+
+.section4 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'whitney';
+    font-size: 20px;
+    line-height: 32.5px;
+}
+
+
+
+.section4 img{
+    height: 50%;
+    width: 100%;
+}
+
+#imagem4{
+    width: 531px;
+    height: 49px;
+}
+
+
+.section4 h2{
+    font-family: 'whitneybold';
+    font-size: 35px;
+    position: relative;
+    bottom: 30px;
+}
+
+.section4 button{
+    cursor: pointer;
+    font-family: 'whitney';
+    padding: 16px 23px;
+    background-color: #404EED;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+/*End*/
+.botao1{
+    display: none;
+}
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+.sectionres{
+    display: none;
+}
