@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'whitney';
-    src: url(/font/whitneybook.otf);
+    src: url(/font/whitneybook.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'whitneybold';
-    src: url(/font/whitneybold.otf);
+    src: url(/font/whitneybold.otf) format('opentype');
 }
-
+ 
 
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'whitney';
 }
 
 main{
@@ -22,7 +22,7 @@ main{
 }
 
 header{
-    background-image: url(/img-header/bg.svg);
+    background-image: url(/img-header/c.svg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -90,7 +90,6 @@ header h1{
 }
 
 header p{
-   
     font-family: 'whitney';
     color: white;
     display: flex;
@@ -110,6 +109,7 @@ header p{
   
     
 }
+
 
 .container button{
    margin-left: 30px;
@@ -375,5 +375,9 @@ header p{
 }
 
 .sectionres{
+    display: none;
+}
+
+#aa{
     display: none;
 }
