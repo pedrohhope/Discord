@@ -110,6 +110,11 @@
 
 @media (max-width:800px) {
 
+
+    nav button{
+        margin-left: 100px;
+    }
+
    .section1-img img{
     z-index: 0;
     position: relative;
@@ -390,10 +395,16 @@
         left: 130px;
     }
 
+    .section4 h1{
+        font-size: 8vw;
+    }
+
     .section4 p{
         text-align: left;
         max-width: 100px;
-        min-width: 300px;
+        line-height: 6vw;
+        font-size: 4.5vw;
+        min-width: 200px;
     }
 
     .section4 h2{
