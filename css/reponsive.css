@@ -170,10 +170,6 @@
     min-width: 400px;
    }
 
-   .section4{
-       height: 150vh;
-   }
-
    .section4 h1{
        display: flex;
        justify-content: center;
@@ -395,20 +391,20 @@
         left: 130px;
     }
 
+
+
     .section4 h1{
         font-size: 8vw;
     }
 
     .section4 p{
-        text-align: left;
-        max-width: 100px;
         line-height: 6vw;
         font-size: 4.5vw;
         min-width: 200px;
     }
 
-    .section4 h2{
-        text-align: center;
+    .section4 h1{
+        font-size: 6vw;
     }
 
 
@@ -445,5 +441,37 @@
     .section2{
         display: none;
     }
+
+
+    .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(img-sections/section4-estrelas.svg);
+        background-position: center;
+    }
     
+    .section5 h1{
+        font-family: 'whitneybold';
+        text-align: center;
+        color: rgb(46, 46, 46);
+        font-size: 2rem;
+        margin-bottom: 3.125rem;
+    }
+
+    .butao{
+        margin-bottom: 30px;
+    }
+
+    .botao1, .botao{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background-color: rgb(46, 46, 46);
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
 }
