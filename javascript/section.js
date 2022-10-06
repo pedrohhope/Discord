@@ -14,3 +14,5 @@ function animeScroll(){
 }
 
 window.addEventListener('scroll', function() {
+  animeScroll()
+})
