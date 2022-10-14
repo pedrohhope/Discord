@@ -337,18 +337,6 @@ header p{
     line-height: 32.5px;
 }
 
-.botao {
-    transition: all 0.5s ease 0s;
-    color: black; 
-    box-shadow: 0px 0px 0px 0px;
-}
-
-.botao:hover {
-    transition: 0.3s;
-    color: #404EED;
-    box-shadow: 3px 3px 7px 1px #1f277c;
-}
-
 .section4 img{
     height: 50%;
     width: 100%;
@@ -441,4 +429,16 @@ header p{
     border: none;
     border-radius: 20px;
     margin-top: 40px;
+}
+
+.botao {
+    transition: all 0.5s ease 0s;
+    color: black; 
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.botao:hover {
+    transition: 0.3s;
+    color: #404EED;
+    box-shadow: 3px 3px 7px 1px #1f277c;
 }
