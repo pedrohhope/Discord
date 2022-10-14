@@ -330,9 +330,7 @@ header p{
 }
 
 .section4 p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     margin-top: 20px;
     font-family: 'whitney';
     font-size: 20px;
@@ -378,7 +376,6 @@ header p{
     color: white;
     border-radius: 30px;
     font-size: 20px;
-    
 }
 
 
@@ -409,4 +406,39 @@ header p{
 
 #aa{
     display: none;
+}
+
+
+
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img-sections/section4-estrelas.svg);
+    background-position: center;
+}
+
+.section5 h1{
+    font-family: 'whitneybold';
+    text-align: center;
+    color: rgb(46, 46, 46);
+    font-size: 2rem;
+}
+
+.butao{
+    margin-bottom: 30px;
+}
+
+.botao1, .botao{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
 }
