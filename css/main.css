@@ -33,9 +33,7 @@ header{
     background-repeat: no-repeat;
     background-color: #404EED;
     height: 700px;
-    overflow: hidden;
-    
-    
+    overflow: hidden; 
 }
 
 nav{
@@ -49,6 +47,11 @@ nav{
 #logo a{
     font-size: 20px;
     text-decoration: none;
+}
+
+.discord-white {
+    width: 124px;
+    height: 30px;
 }
 
 
@@ -136,7 +139,6 @@ header p{
     background-color: #26282c;
 }
 
-
 .container button{
     position: relative;
     left: 300px;
@@ -213,6 +215,17 @@ header p{
 
 
 
+.buttonDiv {
+    display: flex;
+    
+}
+
+.buttonOpen {
+    color: white;
+    background: rgb(38, 40, 44) none repeat scroll 0% 0%;
+    transition: all 0.5s ease 0s;
+    box-shadow: rgb(31, 39, 124) 0px 0px 0px 0px;
+}
 
 
 
@@ -324,8 +337,6 @@ header p{
     line-height: 32.5px;
 }
 
-
-
 .section4 img{
     height: 50%;
     width: 100%;
@@ -418,4 +429,16 @@ header p{
     border: none;
     border-radius: 20px;
     margin-top: 40px;
+}
+
+.botao {
+    transition: all 0.5s ease 0s;
+    color: black; 
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.botao:hover {
+    transition: 0.3s;
+    color: #404EED;
+    box-shadow: 3px 3px 7px 1px #1f277c;
 }

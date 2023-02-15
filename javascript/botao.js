@@ -19,12 +19,11 @@ function Sair(){
 
 //
 
-var c = document.querySelector('.botao')
+/* var c = document.querySelector('.botao')
 c.addEventListener('mouseenter', Enter)
 
 function Enter(){
     c.style.transition = '0.3s'
-
     c.style.color = '#404EED'
     c.style.boxShadow = '3px 3px 7px 1px #1f277c'
 }
@@ -36,7 +35,7 @@ function Back(){
    d.style.transition = '0.5s'
    d.style.color = 'black'
    d.style.boxShadow = '0px 0px 0px 0px'
-}
+} */
 
 //
 
